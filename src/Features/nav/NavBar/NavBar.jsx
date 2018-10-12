@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import {Menu, Container, Button } from 'semantic-ui-react';
+import React, { Component } from 'react';
+import { Menu, Container, Button } from 'semantic-ui-react';
 
 class NavBar extends Component {
   render() {
@@ -8,7 +8,7 @@ class NavBar extends Component {
         <Container>
           <Menu.Item header>
             <img src="assets/logo.png" alt="logo" />
-              Re-vents
+            Re-vents
           </Menu.Item>
           <Menu.Item name="Events" />
           <Menu.Item>
@@ -16,11 +16,16 @@ class NavBar extends Component {
           </Menu.Item>
           <Menu.Item position="right">
             <Button basic inverted content="Login" />
-            <Button basic inverted content="Sign Out" style={{marginLeft: '0.5em'}} />
+            <Button
+              basic
+              inverted
+              content="Sign Out"
+              style={{ marginLeft: '0.5em' }}
+            />
           </Menu.Item>
         </Container>
       </Menu>
-    )
+    );
   }
 }
 
