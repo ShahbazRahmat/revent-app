@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const HomePage = ({ history }) => {
   return (
@@ -15,7 +14,10 @@ const HomePage = ({ history }) => {
             <div className="content">Re-vents</div>
           </h1>
           <h2>Do whatever you want to do</h2>
-          <div as={Link} to="/" className="ui huge white inverted button">
+          <div
+            onClick={() => history.push('/events')}
+            className="ui huge white inverted button"
+          >
             Get Started
             <i className="right arrow icon" />
           </div>
