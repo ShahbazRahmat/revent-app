@@ -24,10 +24,10 @@ const HomePage = ({ history }) => {
         </div>
       </div>
       <div style={{ textAlign: 'center' }}>
-        Icons made by{' '}
+        Icons made by
         <a href="http://www.freepik.com" title="Freepik">
           Freepik
-        </a>{' '}
+        </a>
         from{' '}
         <a href="https://www.flaticon.com/" title="Flaticon">
           www.flaticon.com
